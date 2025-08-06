@@ -20,8 +20,7 @@ jobs:
               run: npm install
 
             - name: Build project
-              working-directory: /build
-              run: npm run build
+              run: npm run build.sh
 
             #- name: Run test2
             #  run: npm run test2
