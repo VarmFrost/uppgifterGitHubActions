@@ -23,8 +23,8 @@ jobs:
               run: npm run build
               #run: chmod +x build.sh
 
-            #- name: Run test2
-            #  run: npm run test2
+            - name: Run test2
+              run: npm run test2
 
             - name: Run tests
               run: npm test 
