@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test2": "echo \"Warning: no test specified\"",
-    "build": "echo \"Warning: no build specified\""
+    "test2": "test.js",
+    "build": "build.js"
   },
   "keywords": [],
   "author": "",
