@@ -1,4 +1,4 @@
-name: a simple demo workflow
+name: A simple demo workflow
 
 #on: push 
 on: 
