@@ -9,8 +9,10 @@ jobs:
     demo-job:
         runs-on: windows-latest
         steps: 
-            #- name: Node version
-            - run: node --version  
+            #- run: node --version 
+            - name: Node version
+              run: node --version 
 
-            #- name: NMP version
-            - run: npm --version
+            #- run: npm --version
+            - name: NMP version
+              run: npm --version
