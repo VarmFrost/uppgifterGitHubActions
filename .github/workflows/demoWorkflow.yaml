@@ -1,0 +1,16 @@
+name: a simple demo workflow
+
+#on: push 
+on: 
+    push: 
+        branches: [ main ]
+
+jobs: 
+    demo-job:
+        runs-on: windows-latest
+        steps: 
+            #- name: Node version
+            - run: node --version  
+
+            #- name: NMP version
+            - run: npm --version
