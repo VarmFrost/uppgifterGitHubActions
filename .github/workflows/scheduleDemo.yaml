@@ -1,0 +1,11 @@
+name: Scheduler demo job
+
+on: 
+    schedule: 
+        - cron: "*/120 * * * *"
+
+jobs: 
+    scheduler-every-30-seconds:
+        runs-on: ubuntu-latest 
+        steps:
+            - run: "echo 'hello my friend'" 
