@@ -9,4 +9,4 @@ jobs:
     scheduler-every-minute:
         runs-on: ubuntu-latest 
         steps:
-            - run: echo "hello my friend..." 
+            - run: echo "hello my friend...." 
