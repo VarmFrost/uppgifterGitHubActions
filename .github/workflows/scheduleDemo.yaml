@@ -3,10 +3,10 @@ name: Scheduler demo job
 on: 
     schedule: 
         - cron: "*/5 * * * *"
-    workflow_dispatch: #manual run
+    #workflow_dispatch: #manual run for the first run.
 
 jobs: 
-    scheduler-every-minute:
+    scheduler-every-5-minute:
         runs-on: ubuntu-latest 
         steps:
             - run: echo "hello my friend...." 
