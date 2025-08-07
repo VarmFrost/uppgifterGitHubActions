@@ -2,7 +2,7 @@ name: Scheduler demo job
 
 on: 
     schedule: 
-        - cron: "* * * * *"
+        - cron: "*/5 * * * *"
     workflow_dispatch: #manual run
 
 jobs: 
